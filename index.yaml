@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  grpcbeacon-prober:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-11T07:05:04.871856819Z"
+    description: A Helm chart for Kubernetes
+    digest: e0d05f3f8406e840712d3744396777249a756c6484b3774998f816da15dca273
+    name: grpcbeacon-prober
+    type: application
+    urls:
+    - https://github.com/troydai/myhelm/releases/download/grpcbeacon-prober-0.1.0/grpcbeacon-prober-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-11T07:05:04.871864419Z"
