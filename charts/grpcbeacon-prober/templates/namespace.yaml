@@ -1,9 +1,10 @@
+# create a k8s namespace
 apiVersion: v1
-kind: ServiceAccount
+kind: Namespace
 metadata:
-  name: prober-sa
-  namespace: {{ .Release.Name }}
+  name: {{ .Release.Name }}
   labels:
+    app: {{ .Release.Name }}
     chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
